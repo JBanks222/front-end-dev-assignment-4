@@ -8,8 +8,7 @@ body, html {
 
 /* Container Setup */
 .container {
-    display: flex;
-    flex-direction: row;
+    display: flex; /* Maintain side-by-side layout */
     height: 100%;
     background-color: #f0f0f0;
     padding: 10px;
@@ -22,7 +21,6 @@ body, html {
     margin-right: 10px;
 }
 
-/* Table Styling */
 .menu-table {
     width: 100%;
     border-collapse: collapse;
